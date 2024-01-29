@@ -25,7 +25,7 @@ export default function Home() {
             <div
               className={`${
                 handleHover === "react"
-                  ? "bg-[#999999] animate-in zoom-in-50 "
+                  ? "bg-[#999999] animate-in zoom-in-50 duration-500"
                   : null
               } w-14 h-14 flex justify-center items-center rounded-full`}
             >
@@ -40,7 +40,7 @@ export default function Home() {
             <div
               className={`${
                 handleHover === "tailwind"
-                  ? "bg-[#999999] animate-in zoom-in-50"
+                  ? "bg-[#999999] animate-in zoom-in-50 duration-500"
                   : null
               } w-14 h-14 flex justify-center items-center rounded-full`}
             >
@@ -57,7 +57,7 @@ export default function Home() {
             <div
               className={`${
                 handleHover === "git"
-                  ? "bg-[#999999]  animate-in zoom-in-50"
+                  ? "bg-[#999999]  animate-in zoom-in-50 duration-500"
                   : null
               } w-14 h-14 flex justify-center items-center rounded-full`}
             >
@@ -72,7 +72,7 @@ export default function Home() {
             <div
               className={`${
                 handleHover === "js"
-                  ? "bg-[#999999]  animate-in zoom-in-50"
+                  ? "bg-[#999999]  animate-in zoom-in-50 duration-500"
                   : null
               } w-14 h-14 flex justify-center items-center rounded-full`}
             >
@@ -89,7 +89,7 @@ export default function Home() {
             <div
               className={`${
                 handleHover === "next"
-                  ? "bg-[#999999]  animate-in zoom-in-50"
+                  ? "bg-[#999999]  animate-in zoom-in-50 duration-500"
                   : null
               } w-14 h-14 flex justify-center items-center rounded-full`}
             >
@@ -104,7 +104,7 @@ export default function Home() {
             <div
               className={`${
                 handleHover === "ts"
-                  ? "bg-[#999999]  animate-in zoom-in-50"
+                  ? "bg-[#999999]  animate-in zoom-in-50 duration-500"
                   : null
               } w-14 h-14 flex justify-center items-center rounded-full`}
             >
