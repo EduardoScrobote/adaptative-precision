@@ -113,6 +113,12 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <a
+        className="hover:text-cyan-500 mt-8 text-lg"
+        href="https://github.com/EduardoScrobote/adaptative-precision"
+      >
+        Repository
+      </a>
     </div>
   );
 }
